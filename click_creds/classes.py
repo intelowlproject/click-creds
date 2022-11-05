@@ -60,3 +60,4 @@ class NetrcStore(ClickCreds):
         obj = self.__netrc_obj
         obj[self.__name] = host
         obj.save()
+        print(obj[self.__name])
