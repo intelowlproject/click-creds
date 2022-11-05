@@ -15,7 +15,7 @@ README = (HERE / "README.md").read_text()
 
 VERSION = (HERE / "version.txt").read_text()
 
-GITHUB_URL = "https://github.com/eshaan7/click-creds"
+GITHUB_URL = "https://github.com/intelowlproject/click-creds"
 
 requirements = (HERE / "requirements.txt").read_text().split("\n")
 
@@ -23,7 +23,7 @@ requirements_test = (HERE / "requirements.dev.txt").read_text().split("\n")
 
 # This call to setup() does all the work
 setup(
-    name="click-creds",
+    name="intelowl-click-creds",
     version=VERSION,
     url=GITHUB_URL,
     license="BSD",
